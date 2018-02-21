@@ -6,7 +6,7 @@ Tunde Oladipupo, Babatunde Olu-lse
 ### Summary of Learnings:
 
 ### Notes:
-<img src="/writeups/ada1.jpg"  title="Note1">
-<img src="/writeups/ada2.jpeg"  title="Note2">
-<img src="/writeups/ada3.jpg" title="Note3">
-<img src="/writeups/ada4.jpeg"  title="Note4">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/notes/ansible/writeups/ada1.jpg"  title="Note1">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/notes/ansible/writeups/ada2.jpg"  title="Note2">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/notes/ansible/writeups/ada3.jpeg" title="Note3">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/notes/ansible/writeups/ada4.jpg"  title="Note4">
