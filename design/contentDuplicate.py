@@ -30,7 +30,7 @@ def contentDuplicates(dir):
 		######### Thoughts...
  		# Optimizing the memory as larger content may crash the program or exhaust the memory.
                 # Thinking....
-                # Vaibhav discussion and input
+                # ******* discussion and input
                 # * Storing only part of the content and narrowing the duplicates, further iterating this activity to find full duplicates
                 # * Storing it on a nosql db or any db and retrieve?
                 # * A very nice thought from **** - why not use hashfunctions
@@ -81,7 +81,7 @@ def contentDuplicates(dir):
 		############# 4th 
                 # Possibility of a disk usage reduction 
                 ### Thinking...
-                # Discussion with Vaibhav - every file should be visited atleast once - how to not visit it to hash again?
+                # Discussion with ******* - every file should be visited atleast once - how to not visit it to hash again?
                 # Reduced disk operations???
 
 	# Debug result
