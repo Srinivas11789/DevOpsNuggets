@@ -7,6 +7,7 @@
 ## Deployment Phase:
 ### - Deployment Tools:
 * Kubernetes
+  * Learning: kubernetes101
   * Activity: Serve a static website preferrably course site - <gcallah/devops>
     * build container setup for the static website hosting - using docker compose
       * nginx to host the website
@@ -15,6 +16,9 @@
       * convert docker compose to kubernetes configuration using kompose
       * create a pod, deployment and service configuration (yaml) files 
       * Bring minikube up and use kubectl to make the setup locally using the config files
+      
 * Ansible
+  * DevOps presentation @DevOps Online Meetup - notes and learnings
+  
 * SaltStack
 * AWS Cloud Formation
