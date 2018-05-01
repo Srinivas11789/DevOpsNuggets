@@ -1,0 +1,14 @@
+version: "3"
+services:
+  devops:
+    image: srinivas11789/devopswebsite:v1
+    ports:
+      - "80:80"
+    deploy:
+      mode: replicated
+      replicas: 3
+      labels: [APP=devops_website]
+      restart_policy:
+        condition: on-failure
+
+

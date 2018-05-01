@@ -1,0 +1,23 @@
+# Latest ubuntu base image
+FROM ubuntu:latest
+
+# Maintainer
+MAINTAINER Srinivas Piskala Ganesh Babu "spg349@nyu.edu"
+
+# Apt update and install - nginx and git
+RUN apt-get update
+RUN apt-get install -y nginx
+RUN apt-get install -y git-core
+
+# Fetching the latest source code from the github repo of devOps
+RUN git clone https://github.com/gcallah/DevOps
+
+# Uploading the webpages and resource to the default nginx config pointer folder
+RUN rm /var/www/html/*
+RUN cp -a DevOps/. /var/www/html/
+
+# Expose ports
+EXPOSE 4000
+
+# Nginx daemon run
+CMD ["nginx", "-g", "daemon off;"]

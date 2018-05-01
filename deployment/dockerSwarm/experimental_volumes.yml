@@ -1,0 +1,50 @@
+# A Docker compose to create the application with two containers
+# * 1. Nginx container
+# * 2. git-sync container
+# Reference from: https://hub.docker.com/r/openweb/git-sync/
+
+version: "3"
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    networks:
+      - devOpsNetwork
+    volumes:
+      - website_sources:/usr/share/nginx/html:z
+    depends_on:
+      - git-sync
+    links:
+      - git-sync
+    deploy:
+      mode: replicated
+      replicas: 2
+      labels: [APP=devops_website]
+      restart_policy:
+        condition: on-failure
+  git-sync:
+    image: openweb/git-sync:0.0.1
+    environment:
+      GIT_SYNC_REPO: "https://github.com/gcallah/DevOps"
+      GIT_SYNC_DEST: "/git"
+      GIT_SYNC_BRANCH: "master"
+      GIT_SYNC_REV: "FETCH_HEAD"
+      GIT_SYNC_WAIT: "100"
+    networks:
+      - devOpsNetwork
+    volumes:
+      - website_sources:/git:z
+    deploy:
+      mode: replicated
+      replicas: 2
+      labels: [APP=devops_website]
+      restart_policy:
+        condition: on-failure
+
+networks:
+    devOpsNetwork:
+
+volumes:
+     website_sources:
+        driver: local
