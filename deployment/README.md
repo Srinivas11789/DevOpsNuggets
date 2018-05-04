@@ -7,3 +7,7 @@
 
 ### - Ansible:
 * DevOps Meetup NYC - webinar: Deployment Automation   
+
+### Presentation for Deployment in Clusters + Kubernetes:
+
+<img src="presentation.pdf" alt="presentation"  width="4200" height="4200">
