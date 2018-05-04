@@ -16,3 +16,4 @@
 <img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/deployment/graphics/Deployment3.jpg"  title="Presentation3">
 <img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/deployment/graphics/Deployment4.jpg"  title="Presentation4">
 <img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/deployment/graphics/Deployment5.jpg"  title="Presentation5">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/deployment/graphics/Deployment6.jpg"  title="Presentation6">
