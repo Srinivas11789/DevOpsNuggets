@@ -10,4 +10,8 @@
 
 ### Presentation for Deployment in Clusters + Kubernetes:
 
-<img src="presentation.pdf" alt="presentation"  width="4200" height="4200">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/deployment/graphics/Deployment1.jpg"  title="Presentation1">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/deployment/graphics/Deployment2.jpg"  title="Presentation2">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/deployment/graphics/Deployment3.jpg"  title="Presentation3">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/deployment/graphics/Deployment4.jpg"  title="Presentation4">
+<img src="https://github.com/Srinivas11789/devOpsNuggets/blob/master/deployment/graphics/Deployment5.jpg"  title="Presentation5">
