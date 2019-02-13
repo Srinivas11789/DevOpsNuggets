@@ -1,5 +1,6 @@
-# devOpsNuggets
-![Alt text](/logo.png "devOpsNuggets")
+# DevOpsNuggets
+<img src="https://srinivas11789.github.io/DevOpsNuggets/logo.png" title="Logo">
+
 :stuck_out_tongue_winking_eye: PVZ walnuts++ == Nuggets<br>
 
 ### Summary:
